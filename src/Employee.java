@@ -1,10 +1,10 @@
 import com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput;
 
 public class Employee {
-    public String name;
-    public  double base;
-    public double gratuity;
-    public long joining;
+    private String name;
+    protected   double base;
+    protected double gratuity;
+    private long joining;
 
     public Employee(String name, double base, double gratuity, long joining) {
         this.name = name;

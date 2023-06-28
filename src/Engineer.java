@@ -1,5 +1,5 @@
 public class Engineer extends Employee{
-    public double benefits;
+    private double benefits;
 
     public Engineer(String name, double base, double gratuity, long joining, double benefits) {
         super(name, base, gratuity, joining);
